@@ -1,0 +1,38 @@
+.one{
+    width: 150px;
+    height: 150px;
+    background-color: blue;
+}
+.two{
+    width: 150px;
+    height: 150px;
+    background-color:blueviolet;
+    margin-left: 200px;
+    margin-top: -165px;
+}
+.three{
+    width: 150px;
+    height: 150px;
+    background-color:chartreuse;
+}
+.four{
+    width: 150px;
+    height: 150px;
+    background-color:brown;
+    margin-left: 200px;
+    margin-top: -165px;
+}
+.five{
+    width: 150px;
+    height: 150px;
+    background-color:black;
+    margin-left: 100px;
+    margin-top: -250px;
+}
+.whole{
+    position: absolute;
+    top: 30%;
+    right: 40%;
+    bottom: 45%;
+    left: 40%;
+}

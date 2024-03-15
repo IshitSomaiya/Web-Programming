@@ -1,0 +1,46 @@
+.one{
+    width: 150px;
+    height: 150px;
+    background-color: blue;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.two{
+    width: 150px;
+    height: 150px;
+    background-color:dodgerblue;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.three{
+    width: 150px;
+    height: 150px;
+    background-color:aquamarine;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.four{
+    width: 150px;
+    height: 150px;
+    background-color:darkcyan;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.five{
+    width: 150px;
+    height: 150px;
+    background-color:dodgerblue;
+    position: absolute;
+    top: 30%;
+    bottom: 30%;
+    right: 50%;
+    left: 45%;
+}
