@@ -1,0 +1,8 @@
+.formatted-text {
+    color: green;              /* Text color */
+    text-indent: 2cm;          /* Text indentation */
+    font-family: Courier;      /* Font */
+    font-style: italic;        /* Font style */
+    text-transform: uppercase; /* Text case */
+  }
+  

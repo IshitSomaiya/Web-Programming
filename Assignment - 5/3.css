@@ -1,0 +1,59 @@
+/* Container Styles */
+.container {
+    width: 80%;
+    margin: 20px auto;
+}
+
+/* Positioned Container Styles */
+.positioned-container {
+    position: relative;
+    height: 500px;
+    border: 2px solid #333333;
+    margin-top: 20px;
+}
+
+/* Positioned Box Styles */
+.positioned-box {
+    width: 150px;
+    height: 150px;
+    background-color: #f2f2f2;
+    border: 1px solid #cccccc;
+    text-align: center;
+    line-height: 150px;
+    margin: 20px;
+}
+
+.box1 {
+    position: relative; /* Relative Positioning */
+}
+
+.box2 {
+    position: absolute; /* Absolute Positioning */
+    top: 0;
+    right: 0;
+}
+
+.box3 {
+    position: fixed; /* Fixed Positioning */
+    bottom: 0;
+    right: 0;
+}
+
+.box4 {
+    position: sticky; /* Sticky Positioning */
+    top: 0;
+}
+
+/* Styled List */
+.styled-list {
+    list-style-type: none; /* Removes default bullet points */
+    padding: 0;
+    margin-top: 20px;
+}
+
+.styled-list li {
+    background-color: #f2f2f2;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+}

@@ -1,0 +1,45 @@
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: #f2f2f2;
+    margin-bottom: 30px; /* Adding some space between boxes */
+}
+
+/* First Box */
+.box {
+    /* Padding */
+    padding: 20px;
+    
+    /* Margin */
+    margin-left: 50px;
+    
+    /* Border */
+    border: 5px solid #333333;
+}
+
+/* Second Box */
+.box2 {
+    /* Padding */
+    padding-top: 30px;
+    padding-right: 40px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    
+    /* Margin */
+    margin: 20px 0; /* shorthand for top/bottom 20px, left/right 0 */
+    
+    /* Border */
+    border: 3px dashed #ff0000; /* dashed border with red color */
+}
+
+/* Third Box */
+.box3 {
+    /* Padding */
+    padding: 15px;
+    
+    /* Margin */
+    margin-right: 50px;
+    
+    /* Border */
+    border: 8px double #008000; /* double border with green color */
+}

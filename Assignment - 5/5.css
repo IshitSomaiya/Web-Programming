@@ -1,0 +1,18 @@
+.animated-square {
+    width: 50px;
+    height: 50px;
+    background-color: blue;
+    position: relative;
+    animation: moveRight 2s linear infinite; /* Animation properties */
+  }
+  
+  /* Keyframes for animation */
+  @keyframes moveRight {
+    0% {
+      left: 0; /* Starting position */
+    }
+    100% {
+      left: calc(100% - 50px); /* Ending position */
+    }
+  }
+  

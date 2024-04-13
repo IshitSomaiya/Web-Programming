@@ -1,0 +1,31 @@
+/* Link styling */
+.visited-link:visited {
+    color: blue; /* Link color after visited */
+  }
+  
+  .visited-link:before {
+    content: "Before "; /* Text before link */
+    color: red; /* Color of the text before link */
+  }
+  
+  /* Table styling */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    padding: 8px 16px;
+    border: 1px solid #ccc;
+    text-align: left;
+  }
+  
+  /* Color rows based on odd/even index */
+  tr:nth-child(odd) {
+    background-color: white;
+  }
+  
+  tr:nth-child(even) {
+    background-color: blue;
+  }
+  

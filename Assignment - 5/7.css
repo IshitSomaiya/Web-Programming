@@ -1,0 +1,20 @@
+/* Pseudo-Class */
+.hover-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .hover-button:hover {
+    background-color: #2980b9; /* Change color on hover */
+  }
+  
+  /* Pseudo-Element */
+  h1::before {
+    content: "🌟 "; /* Content to be inserted */
+    color: #3498db; /* Color of the pseudo-element */
+  }
+  

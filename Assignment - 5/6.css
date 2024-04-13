@@ -1,0 +1,11 @@
+:root {
+    --primary-color: #3498db; /* Define CSS variable */
+  }
+  
+  .box {
+    width: 100px;
+    height: 100px;
+    background-color: var(--primary-color); /* Use CSS variable */
+    margin: 50px;
+  }
+  
