@@ -1,0 +1,9 @@
+<script https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js
+},
+error: function(xhr, status, error) {
+console.log(xhr.responseText);
+}
+});
+});
+});
+</script>
